@@ -758,7 +758,12 @@ section {
 }
 
 .portfolio-details .portfolio-info {
-  padding: 30px;
+  padding: 25px;
+  box-shadow: 0px 0 30px rgba(69, 80, 91, 0.08);
+}
+
+.portfolio-details .portfolio-info2 {
+  padding: 20px;
   box-shadow: 0px 0 30px rgba(69, 80, 91, 0.08);
 }
 
