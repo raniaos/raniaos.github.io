@@ -50,17 +50,17 @@
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
-                </div>
+                <!-- <div class="swiper-slide"> -->
+                  <img src="assets/img/portfolio/smartplate.jpg" alt="">
+                <!-- </div> -->
 
-                <div class="swiper-slide">
+                <!-- <div class="swiper-slide">
                   <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
                 </div>
 
                 <div class="swiper-slide">
                   <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
-                </div>
+                </div> -->
 
               </div>
               <div class="swiper-pagination"></div>
@@ -72,17 +72,24 @@
               <h3>SmartPlate</h3>
               <p>Android Application</p>
               <ul>
-                <li><strong>Technologies used</strong>: AI, Deep Learning, YOLOv5, TensorFlow, Image Processing, </li>
-                <li><strong>Category</strong>: Web desgn</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Technologies used</strong>: AI, Deep Learning, YOLOv5, TensorFlow, Image Processing</li>
+                <li><strong>Project for</strong>: Final Project in University (Tugas Akhir)</li>
+                <li><strong>Programming Language</strong>: Kotlin (Front-end) & Python (Back-end)</li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>Brief Description</h2>
+              <h4>Description</h4>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                SmartPlate is an app to detect Indonesia license plate from image to text. SmartPlate uses YOLOv5 to detect the object (license plate) and TensorFlow to classify the characters in the license plate. SmartPlate also uses a lot of image processing steps, like grayscale, binarization, image moment, opening operation, and also uses Python libraries.
+              </p>
+              <br>
+              <h4>Struggles</h4>
+              <p>
+                <ul>
+                  <li>Collecting the dataset for training the classification model. I had to take over hunderds pictures of license plates, then perform image processing for all the pictures, and then classify each processed images to the classes.</li>
+                  <li>Learning how to make YOLOv5 model from scratch. I had to make the YOLOv5 model too from scratch by manually draw the bounding box in each pictures.</li>
+                  <li>Training the classification model datas. In this project, I used 3 classification models which are VGG16, ResNet50, and MobileNetV2. I also had to change a few parameters in the models so I had to train the models a few times and it took minimum 3 hours to train 1 model.</li>
+                </ul>
               </p>
             </div>
           </div>
